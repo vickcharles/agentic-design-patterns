@@ -1,0 +1,2 @@
+aisuite[all]
+python-dotenv
