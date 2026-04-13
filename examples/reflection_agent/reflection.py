@@ -1,7 +1,7 @@
-from features.reflection_agent.client import CLIENT
+from examples.reflection_agent.client import CLIENT
 
 
-def reflect_on_draft(draft: str, model: str = "openai:o4-mini") -> str:
+def reflect_on_draft(draft: str, model: str = "anthropic:claude-haiku-4-5-20251001") -> str:
     """Step 2 - Reflect on a draft with constructive feedback."""
 
     prompt = f"""You are a critical essay reviewer. Analyze the following essay draft and provide

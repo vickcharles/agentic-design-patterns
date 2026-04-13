@@ -1,7 +1,7 @@
-from features.reflection_agent.client import CLIENT
+from examples.reflection_agent.client import CLIENT
 
 
-def revise_draft(original_draft: str, reflection: str, model: str = "openai:gpt-4o") -> str:
+def revise_draft(original_draft: str, reflection: str, model: str = "anthropic:claude-sonnet-4-6") -> str:
     """Step 3 - Revise the draft using feedback from reflection."""
 
     prompt = f"""You are an expert essay editor. Below is an original essay draft and feedback from a reviewer.

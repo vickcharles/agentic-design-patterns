@@ -1,5 +1,5 @@
-from features.reflection_agent import generate_draft, reflect_on_draft, revise_draft
-from features.reflection_agent.utils import show_output
+from examples.reflection_agent import generate_draft, reflect_on_draft, revise_draft
+from examples.reflection_agent.utils import show_output
 
 
 def run_reflection_workflow(topic: str) -> dict:

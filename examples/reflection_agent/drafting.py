@@ -1,7 +1,7 @@
-from features.reflection_agent.client import CLIENT
+from examples.reflection_agent.client import CLIENT
 
 
-def generate_draft(topic: str, model: str = "openai:gpt-4o") -> str:
+def generate_draft(topic: str, model: str = "anthropic:claude-sonnet-4-6") -> str:
     """Step 1 - Generate an initial essay draft from a topic."""
 
     prompt = f"Write a complete draft essay on the following topic: {topic}"
