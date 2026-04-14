@@ -1,2 +1,3 @@
 aisuite[all]
 python-dotenv
+tavily-python
